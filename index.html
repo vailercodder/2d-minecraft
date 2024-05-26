@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Minecraft 2D</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="./css/intro.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div id="intro-background" class="intro-background">
+      <section id="intro-container" class="intro-container">
+        <h1>Welcome to my cool Minecraft game!</h1>
+        <p>Each tool corresponds to each tile</p>
+        <p>
+          Just mess around, you will figure the features of the game as you go!
+        </p>
+        <p>Good luck!!!!!!</p>
+        <button id="start-game-button">Start Game</button>
+      </section>
+    </div>
+
+    <div id="game-container" class="game-container hidden">
+      <div class="tools">
+        <button class="tool-button" data-tool="axe">Axe</button>
+        <button class="tool-button" data-tool="pickaxe">Pickaxe</button>
+        <button class="tool-button" data-tool="shovel">Shovel</button>
+        <button class="tool-button" data-tool="deathwing">Deathwing</button>
+      </div>
+      <div class="world"></div>
+    </div>
+
+    <audio
+      id="background-sound"
+      src="/assets/sounds/סמיר שוקרי - רונה.mp3"
+      autoplay
+      loop
+    ></audio>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

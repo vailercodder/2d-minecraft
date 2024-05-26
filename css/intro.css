@@ -1,0 +1,61 @@
+/* css/intro.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/assets/images/11307x4B5WLoVoIUtdewG4uJ_YuDRTwBxQy0qP8ylgazLLc01PBxbsFG1pGOWmqhZsxnNkrU3GXbdXIowBAstzlrhtQ4LCI4.PNG")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+}
+
+.intro-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+}
+
+.intro-container {
+  background-color: rgb(199, 170, 170);
+  border-radius: 10px;
+  padding: 20px 40px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.intro-container h1 {
+  margin-bottom: 20px;
+}
+
+.intro-container p,
+.intro-container ul {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.intro-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.intro-container button:hover {
+  background-color: #218838;
+}
+
+.hidden {
+  display: none;
+}
